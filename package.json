@@ -4,7 +4,7 @@
   "description": "Simple REST app in Angular 2",
   "scripts": {
     "server": "json-server server/api/db.json --routes server/api/routes.json",
-    "start": "npm install npm run server"
+    "start": "npm install -g npm run server"
   },
   "dependencies": {
     "es6-shim": "^0.35.0",
