@@ -1,0 +1,4 @@
+{
+   "/api/": "/db",
+   "flights" : "/:resource/:id"
+}
