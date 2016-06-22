@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Simple REST app in Angular 2",
   "scripts": {
-    "server": "json-server server/api/db.json --routes server/api/routes.json",
+    "server": "json-server server/api/db.json -p 80 --routes server/api/routes.json",
     "start": "npm run server"
   },
   "dependencies": {
